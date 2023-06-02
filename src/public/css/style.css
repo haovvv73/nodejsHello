@@ -1,0 +1,65 @@
+/* GLOBAL */
+.d-flex {
+    display: flex;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+table {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead {
+    background-color: rgba(128, 128, 128, 0.274);
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.formUser {
+    width: fit-content;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.formUser-item label {
+    display: block;
+}
+
+.formUser-item button {
+    margin: 10px auto;
+    width: max-content;
+}
